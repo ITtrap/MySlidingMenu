@@ -5,6 +5,7 @@
 
 
 ###一、截图
+https://github.com/ITtrap/MySlidingMenu/blob/master/screenshot/image01.jpg
 
 
 ###二、主要技术框架
