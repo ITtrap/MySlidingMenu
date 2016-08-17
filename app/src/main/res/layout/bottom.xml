@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/xingkong"
+    >
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+        >
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/xc" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xuchen"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:textSize="25sp"
+        android:layout_toRightOf="@id/image_icon"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016/8/17"
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#fff"/>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司：Google"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_orange_light"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职业：Android开发"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/holo_orange_light"
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="兴趣：旅游、摄影"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_orange_light"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吃饭：叉烧面"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/holo_orange_light"
+            />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="喝茶：龙井、铁观音"-->
+            <!--android:textSize="30sp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:textColor="@android:color/holo_orange_light"-->
+            <!--/>-->
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/holo_orange_light"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="夜间"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="@android:color/holo_orange_light"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
