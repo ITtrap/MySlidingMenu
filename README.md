@@ -5,6 +5,8 @@
 
 
 ###一、截图
+ ![image](https://github.com/ITtrap/MySlidingMenu/blob/master/screenshot/image02.jpg)
+ ![image](https://github.com/ITtrap/MySlidingMenu/blob/master/screenshot/image01.jpg)
 https://github.com/ITtrap/MySlidingMenu/blob/master/screenshot/image02.jpg
 https://github.com/ITtrap/MySlidingMenu/blob/master/screenshot/image01.jpg
 
